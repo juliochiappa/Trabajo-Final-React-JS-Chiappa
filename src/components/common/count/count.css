@@ -1,0 +1,18 @@
+button {
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color: #af4c6d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  button.addToCart {
+    background-color: #6d818d;
+  }
+
+  p{
+    font-size: 15px;
+    padding-left: 70px;  }

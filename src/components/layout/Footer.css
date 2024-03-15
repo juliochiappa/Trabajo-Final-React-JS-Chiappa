@@ -1,0 +1,43 @@
+.footerContainer {
+    background-color: #656d6eee;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contacto h3{
+    font-family:monospace;
+    font-size: 25px;
+  }
+
+  .contacto p{
+    font-family: monospace;
+  }
+
+  .redes h3 {
+    font-family:monospace;
+    font-size: 25px;
+  }
+  
+  .redes ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .redes li {
+    margin: 5px 0;
+  }
+  
+  .redes a {
+    margin-left: 50px;
+    font-family: monospace;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  

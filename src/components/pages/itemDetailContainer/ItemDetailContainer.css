@@ -1,0 +1,55 @@
+    .cardContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: #f3e7ee;
+      border: 2px solid #e4aeae;
+      border-radius: 5px;
+    }
+    
+    .detailContainer {
+      border: 2px solid #333;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 16px;
+      text-align: center;
+      background-color: #f7c0e5;
+      max-width: 300px;
+      text-align: center;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    
+    .detailContainer h2 {
+      margin: 8px 0;
+      color: #333;
+      font-size: .9375rem;
+      font-weight: bold;
+    }
+    
+    .detailContainer h3 {
+      margin: 8px 0;
+      color: #666;
+      font-size: .75rem;
+      border-bottom: none;
+    }
+    
+    .detailContainer h4 {
+      margin: 8px 0;
+      color: #5e404d;
+      font-weight: bold;
+      font-size: .9375rem;
+    } 
+
+    .counter {
+      margin-top: 10px;
+    }
+
+    .counter button:hover {
+      background-color: #191a19; 
+    }
