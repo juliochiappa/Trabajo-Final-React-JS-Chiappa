@@ -1,7 +1,7 @@
-button {
+  .count button.botonCount {
     padding: 10px 15px;
     font-size: 14px;
-    background-color: #af4c6d;
+    background-color: rgba(141, 144, 179, 0.767);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -9,16 +9,16 @@ button {
     margin: 5px;
   }
   
-  button[disabled] {
+  .count button[disabled] {
     background-color: #ccc;
     cursor: not-allowed;
   }
   
-  button.addToCart {
-    background-color: #8197a5;
+  .count button.addToCart {
+    background-color: #58666e;
   }
 
-  h5 {
+  .count h5 {
     font-size: 18px;
     text-align: center;
   }

@@ -4,18 +4,18 @@
       align-items: center;
       flex-wrap: wrap;
       background-color: #f3e7ee;
-      border: 2px solid #e4aeae;
+      /* border: 2px solid #e4aeae; */
       border-radius: 5px;
     }
     
     .detailContainer {
-      border: 2px solid #333;
+      border: 1px solid #333;
       border-radius: 8px;
       padding: 16px;
       margin: 16px;
       text-align: center;
-      background-color: #f7c0e5;
-      max-width: 300px;
+      max-width: auto;
+      max-height: auto;
       text-align: center;
     }
     
@@ -27,7 +27,7 @@
     
     .detailContainer h2 {
       margin: 8px 0;
-      color: #333;
+      color: rgb(171, 128, 211);
       font-size: .9375rem;
       font-weight: bold;
     }

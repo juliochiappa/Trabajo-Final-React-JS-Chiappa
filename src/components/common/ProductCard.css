@@ -5,34 +5,36 @@
   }
 
 .productContainer {
-    border: 2px solid #333;
-    border-radius: 8px;
+    border: 1px solid #333;
+    border-radius: 5px;
     padding: 16px;
-    margin: 16px;
+    /* margin: 16px; */
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f7c0e5;
-    max-width: 250px;
+    max-width: auto;
+    max-height: auto;
   }
   
   .productContainer img {
-    width: 80%;
+    width: auto;
     border-radius: 8px;
     margin-bottom: 8px;
   }
   
   .productContainer h2 {
     margin: 8px 0;
-    color: #333;
+    color: #9e3bc5;
     font-size: .9375rem;
     font-weight: bold;
   }
  
-  .productContainer button:hover{
+  .productContainer button{
     font-size: .875rem;
-    color: rgb(34, 32, 32);
-    border: 1px solid #333;
+    background-color: rgba(141, 144, 179, 0.767);
+    color: rgb(250, 247, 250);
     text-align: center;
-    background-color: rgb(231, 226, 226);
-    transition: color 0.3s ease; 
   }
+  .productContainer button:hover{
+    color: rgb(56, 55, 56);
+    background-color: rgb(163, 159, 159);
+    transition: color 0.3s ease; 
+  } 
