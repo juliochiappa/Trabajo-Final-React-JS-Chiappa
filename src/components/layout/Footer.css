@@ -41,3 +41,33 @@
     color: black;
   }
   
+   @media only screen and (max-width: 600px) {
+    .footerContainer {
+        flex-direction: column; 
+        align-items: center;
+        padding: 10px; 
+    }
+
+    .contacto h3{
+      margin-left: 0px;
+      font-size: 20px;
+    }
+
+    .redes h3{
+      font-size: 20px;
+    }
+
+    .redes a {
+        margin-left: 0; 
+    }
+
+    .redes li {
+        margin: 5px 0; 
+    }
+  } 
+
+  @media only screen and (max-width: 768px) {
+    .redes a {
+        margin-left: 0; 
+    }
+  }

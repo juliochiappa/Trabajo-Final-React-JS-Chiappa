@@ -14,13 +14,13 @@ export const menuNavigation = [
 
     {
         id:"tratamiento",
-        text:"Tratamiento",
+        text:"Tratamientos",
         path:"/category/tratamientos",
     },
 
     {
         id:"kit",
-        text:"Kit",
+        text:"Kit de Productos",
         path:"/category/kit",
     },
 ]
