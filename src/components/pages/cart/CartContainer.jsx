@@ -62,7 +62,7 @@ export function CartContainer() {
           <h5>Cantidad de Productos:</h5>
           <h5>Precio Total:</h5>
           <h5>Descuento:</h5>
-          <h1>Total a pagar: ${totalPrice}</h1>
+          <h1>Total a Pagar: ${totalPrice}</h1>
           {cart.length > 0 ? (
             <div>
               <button className="botones" onClick={limpiarConAlerta}>

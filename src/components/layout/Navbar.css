@@ -5,8 +5,8 @@
     padding: 10px;
     background-color: #8e09a8e3;
     color: white;
-    position: sticky;
-    top: 0px;
+    /* position: sticky;
+    top: 0px; */
 }
 
 .logo {
@@ -63,7 +63,7 @@
     .nav-list a {
       margin-right: 0;
       margin-bottom: 0px;
-      font-size: 12px;
+      font-size: 15px;
     }
   
     .cart {
